@@ -9,6 +9,13 @@ public class ProcesoFecha {
 	public ProcesoFecha() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	public ProcesoFecha(int dia, int mes, int año) {
+		super();
+		this.dia = dia;
+		this.mes = mes;
+		this.año = año;
+	}
 
 	public int getDia() {
 		return dia;
